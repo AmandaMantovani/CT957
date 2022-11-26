@@ -8,7 +8,7 @@ namespace Turma957
 {
     public class Aula2Parte2
     {
-        static void Main(string[] args)
+        static void Maina2(string[] args)
         {
             Console.WriteLine("Digite um numero: ");
             bool conversao = int.TryParse(Console.ReadLine(), out int numeroDigitado);

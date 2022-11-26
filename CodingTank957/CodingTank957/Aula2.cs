@@ -9,23 +9,27 @@ namespace Turma957
 {
     public class Aula2
     {
-        static void MainAula2(string[] args)
+        static void MainA2(string[] args)
         {
-            //DateTime dataHoje = new DateTime(2022, 11, 23, 19, 11, 30); //01/01/0001
+            DateTime dataHoje = new DateTime(2022, 11, 23, 19, 11, 30); //01/01/0001
 
-            //Console.WriteLine(dataHoje);
+            Console.WriteLine(dataHoje);
 
-            //DateTime dataAgora = DateTime.Now;
+            DateTime dataAgora = DateTime.Now;
 
-            //Console.WriteLine(dataAgora);
+            Console.WriteLine(dataAgora);
 
-            //Console.WriteLine(dataHoje.Year);
-            //dataHoje.ToShortDateString();
-            //dataHoje.ToShortTimeString();
+            Console.WriteLine(dataHoje.Year);
+            dataHoje.ToShortDateString();
+            dataHoje.ToShortTimeString();
 
-            //dataHoje.AddDays(-1);
+            dataHoje.AddDays(-1);
 
-            //Console.WriteLine(dataHoje.CompareTo(dataAgora));
+            var dif = dataAgora.Subtract(dataHoje).TotalDays;
+
+            Console.WriteLine(dif);
+            
+            //CompareTo -> retorna um inteiro que indica se a primeira instância é anterior, a mesma ou posterior à segunda instância. -1, 0, 1
 
             //Console.WriteLine("Digite seu nome:");
             //string nome = Console.ReadLine();
@@ -78,7 +82,7 @@ namespace Turma957
             Console.WriteLine(converte);
             Console.WriteLine(numero3);
 
-            bool converteDate = DateTime.TryParse("23/11/2022", out DateTime dataAgora);
+            //bool converteDate = DateTime.TryParse("23/11/2022", out DateTime dataAgora);
 
             numero1 = Math.Round(numero1, 2);
 
