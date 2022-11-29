@@ -8,7 +8,7 @@ namespace CodingTank957
 {
     public class Aula3Parte2
     {
-        static void Main(string[] args)
+        static void Maina3p2(string[] args)
         {
             //int[] vetorInteiro;
             //vetorInteiro = new int[5];
