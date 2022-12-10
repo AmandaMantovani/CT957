@@ -2,7 +2,7 @@
 {
     public class Aula4
     {
-        static void Main(string[] args)
+        static void MainA4(string[] args)
         {
             Pessoa pessoa1 = new Pessoa()
             {
